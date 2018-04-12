@@ -107,3 +107,4 @@ data/*
 model/*
 log/*
 log_eval_test/*
+log*
