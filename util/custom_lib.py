@@ -62,18 +62,19 @@ class DataWrangler:
         return df.drop(drop_cols, axis=1)
 
     def stack_dfs(self, dfs):
-        ''' Stack train and test data before any transformation '''
+        ''' Stack data frames '''
         stacked_df = pd.concat(dfs)
         splits = [len(df) for df in dfs[:-1]]
         return stacked_df, splits
 
-    def scale_numeric_columns(self, df): 
+    def scale_numeric_columns(self, df_train): 
+        ''' fit scaler on training data only '''
         from sklearn.preprocessing import StandardScaler
         scaler = StandardScaler()
-        num_cols = list(df.dtypes[df.dtypes != 'object'].index)
-        df[num_cols] = scaler.fit_transform(df[num_cols].as_matrix())
+        num_cols = list(df_train.dtypes[df_train.dtypes != 'object'].index)
+        df_train[num_cols] = scaler.fit_transform(df_train[num_cols].as_matrix())
 
-        return df, scaler
+        return df_train, scaler
 
     def encode_categorical_columns(self, df_train, df_test=None): 
         if df_test is None:
@@ -103,6 +104,7 @@ class DataWrangler:
         return df
 
     def missing_value_check_fix(self, df, verbose=False):
+        ''' e.g., combine df_train & df_test '''
         print('Checking missing value by attribute:')
         missing_prop = df.isnull().sum().div(df.count())        
         if verbose:
@@ -112,16 +114,18 @@ class DataWrangler:
         for col in list(df.columns):
             if missing_prop[col] > 0.2:
                 ''' drop column if missign too many '''
-                df = df.drop([col], axis=1)
+                df_ = df.drop([col], axis=1)
             elif missing_prop[col] > 0.:
                 if df.dtypes[col] == 'object':
                     ''' common value imputation for categorical '''
                     most_common_val = df[col].value_counts().index[0]
-                    df = df.fillna({col: most_common_val})
+                    df_ = df.fillna({col: most_common_val})
                 else:
                     ''' average value imputation for numeric '''
                     avg_val = df.mean()[col]
-                    df = df.fillna({col: avg_val})
+                    df_ = df.fillna({col: avg_val})
+
+        return df_
 
     def reduce_dimensions(self, df_train, df_test):
         from sklearn.decomposition import PCA
@@ -133,8 +137,19 @@ class DataWrangler:
 
         return df_train_, df_test_
 
-lr_params = {"C": [1, 1e3, 1e5], "solver": ['lbfgs']}
-svm_params = {"C": [1000, 10, 1, 1e3]} 
+    def feature_engineering(self, df_train, df_test, num_col, degree=2):
+        from sklearn.preprocessing import PolynomialFeatures
+        poly = PolynomialFeatures(degree=degree)
+        X_train = poly.fit_transform(df_train[num_col].as_matrix())
+        X_test = poly.fit_transform(df_test[num_col].as_matrix())
+        df_train_ = pd.DataFrame(X_train, index=df_train.index, columns=df_train.columns)
+        df_test_ = pd.DataFrame(X_test, index=df_test.index, columns=df_test.columns)
+        return df_train_, df_test_
+
+
+lr_params = {"C": [1, 1e3, 1e5], "solver": ['lbfgs'], "n_jobs": [-1]}
+svm_params = {"C": [1000, 10, 1, 1e3],
+              "kernel": ['linear','rbf']} 
 rf_param_dist = {"max_depth": [None],
                  "n_estimators": [10, 100, 200, 500, 1000],
                  "max_features": [None, 0.2, 0.3, 0.5], #None defaults to 'auto'
@@ -162,7 +177,7 @@ class Pipeliner:
         self.model_space.append((LogisticRegression(), lr_params))
         self.model_space.append((SVC(), svm_params)) 
         self.model_space.append((RandomForestClassifier(), rf_param_dist))
-        self.model_space.append((XGBClassifier(), xgb_param_dist))  
+        #self.model_space.append((XGBClassifier(), xgb_param_dist))  
 
     def curate_pipeline(self, X, y, budget=50, cv=3, scorer=accuracy_score):
         #rs = RandomOptimizer(self.model_space, budget=budget)
@@ -173,12 +188,26 @@ class Pipeliner:
         rs_bandit = rs_bandit.fit(X, y, cv=cv, scorer=scorer)
         end = time()
         print ('RandomBanditOptimizer took %s seconds'%(end-start))
+        print ('best score: ', rs_bandit.best_score_)
+        print ('using best model: ', rs_bandit.best_estimator_)
+
+        return rs_bandit.best_estimator_ 
+
+    def SVM_search(self, X, y, cv=3, scoring='f1_weighted'):
+        ''' curate a random forest pipeline '''
+        from sklearn.model_selection import GridSearchCV
+        rs = GridSearchCV( SVC(), svm_params, 
+                                cv=cv, n_jobs=-1, scoring=scoring)
+        start = time()
+        rs = rs.fit(X, y)
+        end = time()
+        print ('GridSearch took %s seconds'%(end-start))
         print ('best score: ', rs.best_score_)
         print ('using best model: ', rs.best_estimator_)
+        
+        return rs.best_estimator_
 
-        return rs.best_estimator_ 
-
-    def random_forest_search(self, X, y, budget=20, cv=3, scoring='f1_weighted'):
+    def RF_search(self, X, y, budget=20, cv=3, scoring='f1_weighted'):
         ''' curate a random forest pipeline '''
         from sklearn.model_selection import RandomizedSearchCV
         rs = RandomizedSearchCV( RandomForestClassifier(), rf_param_dist, 
@@ -193,7 +222,19 @@ class Pipeliner:
         return rs.best_estimator_
 
     def XGB_search(self, X, y, budget=20, cv=3, scoring='f1_weighted'):
-        pass
+        ''' curate a XGB pipeline '''
+        from sklearn.model_selection import RandomizedSearchCV
+        rs = RandomizedSearchCV( XGBClassifier(), xgb_param_dist, 
+                                n_iter=budget, cv=cv, n_jobs=-1, scoring=scoring)
+        start = time()
+        rs = rs.fit(X, y)
+        end = time()
+        print ('RandomOptimizer took %s seconds'%(end-start))
+        print ('best score: ', rs.best_score_)
+        print ('using best model: ', rs.best_estimator_)
+
+        return rs.best_estimator_
+
 
 class VisualAnalyzer:
 

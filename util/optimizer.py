@@ -133,6 +133,7 @@ class GreedyOptimizer(MultiArmedBandit):
     def fit(self, X, y, cv=3, scorer=f1_score):
         n_arms = len(self.model_space_)
         for i in range(self.budget_):
+            print(i,'-th iteration')
             if len(self.history_) == 0 or random.random() < self.eps_:
                 # exploration
                 target_idx = random.randint(0, n_arms-1)

@@ -1,0 +1,361 @@
+,date,subject,article_count
+0,2014-05-01,condensed matter,40.893698126938084
+1,2014-05-01,disordered systems and neural networks,36.566806036631085
+2,2014-05-01,general relativity and quantum cosmology,2.4774464952978157
+3,2014-05-01,high energy physics - lattice,2.508408501874462
+4,2014-05-01,high energy physics - phenomenology,4.1226165949208085
+5,2014-05-01,high energy physics - theory,24.658864547420002
+6,2014-05-01,materials science,220.3668534664141
+7,2014-05-01,mathematical physics,16.377628458194927
+8,2014-05-01,mathematics - probability,1.4003165394075199
+9,2014-05-01,mesoscale and nanoscale physics,253.1090347980081
+10,2014-05-01,nonlinear sciences - adaptation and self-organizing systems,1.385048440908459
+11,2014-05-01,nonlinear sciences - chaotic dynamics,3.918082707536163
+12,2014-05-01,nonlinear sciences - pattern formation and solitons,2.0846971633449325
+13,2014-05-01,nuclear theory,1.5231838794166426
+14,2014-05-01,other condensed matter,10.658167659107686
+15,2014-05-01,physics - atomic physics,6.796709410715744
+16,2014-05-01,physics - biological physics,7.249660102996454
+17,2014-05-01,physics - chemical physics,22.18981765893187
+18,2014-05-01,physics - computational physics,4.517076818330159
+19,2014-05-01,physics - fluid dynamics,5.537064473413348
+20,2014-05-01,physics - optics,9.60787029709026
+21,2014-05-01,physics - physics and society,8.44681633889076
+22,2014-05-01,quantitative biology - biomolecules,1.3845172122262897
+23,2014-05-01,quantitative biology - populations and evolution,3.4985690399502762
+24,2014-05-01,quantum gases,75.60461616793647
+25,2014-05-01,quantum physics,53.66978424653833
+26,2014-05-01,soft condensed matter,79.948117278865
+27,2014-05-01,statistical mechanics,126.04808456857623
+28,2014-05-01,strongly correlated electrons,173.65572114532577
+29,2014-05-01,superconductivity,99.15126199455617
+30,2014-06-01,condensed matter,33.45497073784217
+31,2014-06-01,disordered systems and neural networks,35.46969260265635
+32,2014-06-01,general relativity and quantum cosmology,2.7569717010762917
+33,2014-06-01,high energy physics - lattice,2.748065023909085
+34,2014-06-01,high energy physics - phenomenology,3.514537840701068
+35,2014-06-01,high energy physics - theory,25.442079033841328
+36,2014-06-01,materials science,212.59744434377657
+37,2014-06-01,mathematical physics,12.383692543703539
+38,2014-06-01,mathematics - probability,1.7532190599097521
+39,2014-06-01,mesoscale and nanoscale physics,243.41686479325796
+40,2014-06-01,nonlinear sciences - adaptation and self-organizing systems,1.183738153273187
+41,2014-06-01,nonlinear sciences - chaotic dynamics,3.5104694563949246
+42,2014-06-01,nonlinear sciences - pattern formation and solitons,1.499123736472956
+43,2014-06-01,nuclear theory,1.247551279589381
+44,2014-06-01,other condensed matter,9.301872725175262
+45,2014-06-01,physics - atomic physics,8.328246067307905
+46,2014-06-01,physics - biological physics,6.0375368050516816
+47,2014-06-01,physics - chemical physics,21.67511359545522
+48,2014-06-01,physics - computational physics,2.955634788439779
+49,2014-06-01,physics - fluid dynamics,5.298916541775532
+50,2014-06-01,physics - optics,8.538909433172782
+51,2014-06-01,physics - physics and society,8.308730322965692
+52,2014-06-01,quantitative biology - biomolecules,1.7761339931382651
+53,2014-06-01,quantitative biology - populations and evolution,3.7870642645997252
+54,2014-06-01,quantum gases,79.64035461857401
+55,2014-06-01,quantum physics,56.129755368847924
+56,2014-06-01,soft condensed matter,75.072216031029
+57,2014-06-01,statistical mechanics,125.03489179471737
+58,2014-06-01,strongly correlated electrons,160.14310540139027
+59,2014-06-01,superconductivity,94.5523991962596
+60,2014-07-01,condensed matter,37.383126712365076
+61,2014-07-01,disordered systems and neural networks,36.14668383346317
+62,2014-07-01,general relativity and quantum cosmology,2.6139631464191
+63,2014-07-01,high energy physics - lattice,2.629229514003237
+64,2014-07-01,high energy physics - phenomenology,3.865688726267665
+65,2014-07-01,high energy physics - theory,25.185735387918992
+66,2014-07-01,materials science,217.95853978145578
+67,2014-07-01,mathematical physics,14.420879879347712
+68,2014-07-01,mathematics - probability,1.5388718252372378
+69,2014-07-01,mesoscale and nanoscale physics,248.8431375306695
+70,2014-07-01,nonlinear sciences - adaptation and self-organizing systems,1.2889868056595366
+71,2014-07-01,nonlinear sciences - chaotic dynamics,3.7051248696458225
+72,2014-07-01,nonlinear sciences - pattern formation and solitons,1.8179515188005175
+73,2014-07-01,nuclear theory,1.3908489062007112
+74,2014-07-01,other condensed matter,9.786588659214662
+75,2014-07-01,physics - atomic physics,7.662590665894955
+76,2014-07-01,physics - biological physics,6.742948879836443
+77,2014-07-01,physics - chemical physics,22.071243508343034
+78,2014-07-01,physics - computational physics,3.9466125717552103
+79,2014-07-01,physics - fluid dynamics,5.451743929221551
+80,2014-07-01,physics - optics,9.040498184893378
+81,2014-07-01,physics - physics and society,8.407101938512625
+82,2014-07-01,quantitative biology - biomolecules,1.5399201658116797
+83,2014-07-01,quantitative biology - populations and evolution,3.659967035199388
+84,2014-07-01,quantum gases,78.06608230485709
+85,2014-07-01,quantum physics,55.372284506953015
+86,2014-07-01,soft condensed matter,77.42519410979303
+87,2014-07-01,statistical mechanics,126.07112749189837
+88,2014-07-01,strongly correlated electrons,167.90745429801862
+89,2014-07-01,superconductivity,97.01064948337238
+90,2014-08-01,condensed matter,35.77366563488779
+91,2014-08-01,disordered systems and neural networks,35.96463670743644
+92,2014-08-01,general relativity and quantum cosmology,2.693544689684986
+93,2014-08-01,high energy physics - lattice,2.686143590313922
+94,2014-08-01,high energy physics - phenomenology,3.685191160648701
+95,2014-08-01,high energy physics - theory,25.43810317916688
+96,2014-08-01,materials science,216.1764352571531
+97,2014-08-01,mathematical physics,13.517901641539227
+98,2014-08-01,mathematics - probability,1.6623127704579748
+99,2014-08-01,mesoscale and nanoscale physics,247.7016114736581
+100,2014-08-01,nonlinear sciences - adaptation and self-organizing systems,1.2339609040359492
+101,2014-08-01,nonlinear sciences - chaotic dynamics,3.6261673615217713
+102,2014-08-01,nonlinear sciences - pattern formation and solitons,1.647073290621503
+103,2014-08-01,nuclear theory,1.3144433354143032
+104,2014-08-01,other condensed matter,9.595395469772988
+105,2014-08-01,physics - atomic physics,8.016540138971388
+106,2014-08-01,physics - biological physics,6.386208451183449
+107,2014-08-01,physics - chemical physics,21.9806571056842
+108,2014-08-01,physics - computational physics,3.340234269371045
+109,2014-08-01,physics - fluid dynamics,5.407384456477145
+110,2014-08-01,physics - optics,8.87123043350904
+111,2014-08-01,physics - physics and society,8.409881168388699
+112,2014-08-01,quantitative biology - biomolecules,1.6950988928038435
+113,2014-08-01,quantitative biology - populations and evolution,3.751519460929675
+114,2014-08-01,quantum gases,79.50895617380608
+115,2014-08-01,quantum physics,56.13935679992466
+116,2014-08-01,soft condensed matter,76.84635879079477
+117,2014-08-01,statistical mechanics,126.0731671212505
+118,2014-08-01,strongly correlated electrons,164.67526414247328
+119,2014-08-01,superconductivity,96.30683942142329
+120,2014-09-01,condensed matter,36.86197153835369
+121,2014-09-01,disordered systems and neural networks,36.198544126347535
+122,2014-09-01,general relativity and quantum cosmology,2.6558661313146885
+123,2014-09-01,high energy physics - lattice,2.6568969871582038
+124,2014-09-01,high energy physics - phenomenology,3.799357212504031
+125,2014-09-01,high energy physics - theory,25.44153123510207
+126,2014-09-01,materials science,218.2803432971404
+127,2014-09-01,mathematical physics,14.048250702940205
+128,2014-09-01,mathematics - probability,1.5846062432739936
+129,2014-09-01,mesoscale and nanoscale physics,249.41328807380447
+130,2014-09-01,nonlinear sciences - adaptation and self-organizing systems,1.2627294357479952
+131,2014-09-01,nonlinear sciences - chaotic dynamics,3.6715132335493235
+132,2014-09-01,nonlinear sciences - pattern formation and solitons,1.7413561151776107
+133,2014-09-01,nuclear theory,1.353258610249702
+134,2014-09-01,other condensed matter,9.652355700364218
+135,2014-09-01,physics - atomic physics,7.897342944556957
+136,2014-09-01,physics - biological physics,6.617810723584876
+137,2014-09-01,physics - chemical physics,22.150154074931244
+138,2014-09-01,physics - computational physics,3.733513802002987
+139,2014-09-01,physics - fluid dynamics,5.462475398973454
+140,2014-09-01,physics - optics,8.98851742912347
+141,2014-09-01,physics - physics and society,8.451305394162603
+142,2014-09-01,quantitative biology - biomolecules,1.6062816604305679
+143,2014-09-01,quantitative biology - populations and evolution,3.728036901729716
+144,2014-09-01,quantum gases,79.32916451323126
+145,2014-09-01,quantum physics,56.18404409187348
+146,2014-09-01,soft condensed matter,77.45657773746527
+147,2014-09-01,statistical mechanics,126.59708956906958
+148,2014-09-01,strongly correlated electrons,167.12639739178258
+149,2014-09-01,superconductivity,97.0198446393344
+150,2014-10-01,condensed matter,36.63600333887516
+151,2014-10-01,disordered systems and neural networks,36.23104239736891
+152,2014-10-01,general relativity and quantum cosmology,2.6799600038118223
+153,2014-10-01,high energy physics - lattice,2.6698903849374864
+154,2014-10-01,high energy physics - phenomenology,3.750207360270078
+155,2014-10-01,high energy physics - theory,25.566778828184443
+156,2014-10-01,materials science,218.27019968937992
+157,2014-10-01,mathematical physics,13.879854372173842
+158,2014-10-01,mathematics - probability,1.626679827009208
+159,2014-10-01,mesoscale and nanoscale physics,249.88546790225848
+160,2014-10-01,nonlinear sciences - adaptation and self-organizing systems,1.2476887233700245
+161,2014-10-01,nonlinear sciences - chaotic dynamics,3.660387612054316
+162,2014-10-01,nonlinear sciences - pattern formation and solitons,1.6920622174164535
+163,2014-10-01,nuclear theory,1.3316476217304969
+164,2014-10-01,other condensed matter,9.618208831295547
+165,2014-10-01,physics - atomic physics,7.9977090089684735
+166,2014-10-01,physics - biological physics,6.523520873373331
+167,2014-10-01,physics - chemical physics,22.180672016392958
+168,2014-10-01,physics - computational physics,3.501187187041721
+169,2014-10-01,physics - fluid dynamics,5.467408916771183
+170,2014-10-01,physics - optics,8.983403251539936
+171,2014-10-01,physics - physics and society,8.477106663176274
+172,2014-10-01,quantitative biology - biomolecules,1.6695726568157188
+173,2014-10-01,quantitative biology - populations and evolution,3.765076037613137
+174,2014-10-01,quantum gases,80.02206620634017
+175,2014-10-01,quantum physics,56.571024147419685
+176,2014-10-01,soft condensed matter,77.58455247044051
+177,2014-10-01,statistical mechanics,126.85765607821953
+178,2014-10-01,strongly correlated electrons,166.64022784328262
+179,2014-10-01,superconductivity,97.0980215125427
+180,2014-11-01,condensed matter,37.05031149753728
+181,2014-11-01,disordered systems and neural networks,36.3610648939273
+182,2014-11-01,general relativity and quantum cosmology,2.6715122601750148
+183,2014-11-01,high energy physics - lattice,2.6621757556905363
+184,2014-11-01,high energy physics - phenomenology,3.791574568666546
+185,2014-11-01,high energy physics - theory,25.632413601271995
+186,2014-11-01,materials science,219.41013326109498
+187,2014-11-01,mathematical physics,14.052095607819824
+188,2014-11-01,mathematics - probability,1.5974262655394982
+189,2014-11-01,mesoscale and nanoscale physics,250.8961135992976
+190,2014-11-01,nonlinear sciences - adaptation and self-organizing systems,1.2555522755277566
+191,2014-11-01,nonlinear sciences - chaotic dynamics,3.6749172026442825
+192,2014-11-01,nonlinear sciences - pattern formation and solitons,1.7205107896701564
+193,2014-11-01,nuclear theory,1.3417265004683403
+194,2014-11-01,other condensed matter,9.617511042265098
+195,2014-11-01,physics - atomic physics,7.996186952975547
+196,2014-11-01,physics - biological physics,6.6097477107842355
+197,2014-11-01,physics - chemical physics,22.285455259871537
+198,2014-11-01,physics - computational physics,3.66037758740011
+199,2014-11-01,physics - fluid dynamics,5.497639133896958
+200,2014-11-01,physics - optics,9.03057244164496
+201,2014-11-01,physics - physics and society,8.50922380238896
+202,2014-11-01,quantitative biology - biomolecules,1.638038667917515
+203,2014-11-01,quantitative biology - populations and evolution,3.770273768223313
+204,2014-11-01,quantum gases,80.24562059668901
+205,2014-11-01,quantum physics,56.79581321637945
+206,2014-11-01,soft condensed matter,77.90811077630825
+207,2014-11-01,statistical mechanics,127.25111899242079
+208,2014-11-01,strongly correlated electrons,167.67213972556107
+209,2014-11-01,superconductivity,97.4606440950589
+210,2014-12-01,condensed matter,37.15269551961677
+211,2014-12-01,disordered systems and neural networks,36.44386523267286
+212,2014-12-01,general relativity and quantum cosmology,2.68020738700224
+213,2014-12-01,high energy physics - lattice,2.664613171278506
+214,2014-12-01,high energy physics - phenomenology,3.7827731280826176
+215,2014-12-01,high energy physics - theory,25.727220117997366
+216,2014-12-01,materials science,219.92440684945083
+217,2014-12-01,mathematical physics,14.058276425820095
+218,2014-12-01,mathematics - probability,1.610646881160144
+219,2014-12-01,mesoscale and nanoscale physics,251.6728373545835
+220,2014-12-01,nonlinear sciences - adaptation and self-organizing systems,1.251441064257854
+221,2014-12-01,nonlinear sciences - chaotic dynamics,3.6777915338092075
+222,2014-12-01,nonlinear sciences - pattern formation and solitons,1.706864156332969
+223,2014-12-01,nuclear theory,1.335185988381435
+224,2014-12-01,other condensed matter,9.604532750841532
+225,2014-12-01,physics - atomic physics,8.041945981873877
+226,2014-12-01,physics - biological physics,6.595983562684637
+227,2014-12-01,physics - chemical physics,22.35055384609251
+228,2014-12-01,physics - computational physics,3.57454869906621
+229,2014-12-01,physics - fluid dynamics,5.515111060485705
+230,2014-12-01,physics - optics,9.05540891658527
+231,2014-12-01,physics - physics and society,8.53878763386464
+232,2014-12-01,quantitative biology - biomolecules,1.665619020875654
+233,2014-12-01,quantitative biology - populations and evolution,3.792223757480215
+234,2014-12-01,quantum gases,80.72159685971317
+235,2014-12-01,quantum physics,57.097454380760155
+236,2014-12-01,soft condensed matter,78.15234633884585
+237,2014-12-01,statistical mechanics,127.57751884905511
+238,2014-12-01,strongly correlated electrons,167.91946404941925
+239,2014-12-01,superconductivity,97.69581590727033
+240,2015-01-01,condensed matter,37.407039965887726
+241,2015-01-01,disordered systems and neural networks,36.549530989484765
+242,2015-01-01,general relativity and quantum cosmology,2.679871677544721
+243,2015-01-01,high energy physics - lattice,2.6620735789555017
+244,2015-01-01,high energy physics - phenomenology,3.8017774218319618
+245,2015-01-01,high energy physics - theory,25.8077513391245
+246,2015-01-01,materials science,220.7790492597979
+247,2015-01-01,mathematical physics,14.14541150438271
+248,2015-01-01,mathematics - probability,1.5985748019123802
+249,2015-01-01,mesoscale and nanoscale physics,252.55118217450135
+250,2015-01-01,nonlinear sciences - adaptation and self-organizing systems,1.2535904757171508
+251,2015-01-01,nonlinear sciences - chaotic dynamics,3.685960893205241
+252,2015-01-01,nonlinear sciences - pattern formation and solitons,1.716010808742949
+253,2015-01-01,nuclear theory,1.3373613269841316
+254,2015-01-01,other condensed matter,9.59606312569085
+255,2015-01-01,physics - atomic physics,8.06576426851864
+256,2015-01-01,physics - biological physics,6.637605968122253
+257,2015-01-01,physics - chemical physics,22.436858459608654
+258,2015-01-01,physics - computational physics,3.6420578509251738
+259,2015-01-01,physics - fluid dynamics,5.539017580588665
+260,2015-01-01,physics - optics,9.089784757268031
+261,2015-01-01,physics - physics and society,8.56938368737694
+262,2015-01-01,quantitative biology - biomolecules,1.6563472150629128
+263,2015-01-01,quantitative biology - populations and evolution,3.8053601228609555
+264,2015-01-01,quantum gases,81.06181693232094
+265,2015-01-01,quantum physics,57.36268017647645
+266,2015-01-01,soft condensed matter,78.42875279138389
+267,2015-01-01,statistical mechanics,127.93776050666584
+268,2015-01-01,strongly correlated electrons,168.57228548584814
+269,2015-01-01,superconductivity,97.98809421931543
+270,2015-02-01,condensed matter,37.5873536854139
+271,2015-02-01,disordered systems and neural networks,36.64412509333619
+272,2015-02-01,general relativity and quantum cosmology,2.6842933979571275
+273,2015-02-01,high energy physics - lattice,2.661973949038957
+274,2015-02-01,high energy physics - phenomenology,3.805370519993507
+275,2015-02-01,high energy physics - theory,25.895268226482187
+276,2015-02-01,materials science,221.44852570450067
+277,2015-02-01,mathematical physics,14.19308147502793
+278,2015-02-01,mathematics - probability,1.6015641189653755
+279,2015-02-01,mesoscale and nanoscale physics,253.3853804697301
+280,2015-02-01,nonlinear sciences - adaptation and self-organizing systems,1.2524667204709645
+281,2015-02-01,nonlinear sciences - chaotic dynamics,3.6917247013436167
+282,2015-02-01,nonlinear sciences - pattern formation and solitons,1.7128155835481205
+283,2015-02-01,nuclear theory,1.334965736721595
+284,2015-02-01,other condensed matter,9.585938187841265
+285,2015-02-01,physics - atomic physics,8.099764135635692
+286,2015-02-01,physics - biological physics,6.648548904835075
+287,2015-02-01,physics - chemical physics,22.511831348858557
+288,2015-02-01,physics - computational physics,3.613604947324427
+289,2015-02-01,physics - fluid dynamics,5.559678838830486
+290,2015-02-01,physics - optics,9.120085880743453
+291,2015-02-01,physics - physics and society,8.599562445975101
+292,2015-02-01,quantitative biology - biomolecules,1.6700492183703768
+293,2015-02-01,quantitative biology - populations and evolution,3.823133472869773
+294,2015-02-01,quantum gases,81.47504867797052
+295,2015-02-01,quantum physics,57.645160922336935
+296,2015-02-01,soft condensed matter,78.69211171026424
+297,2015-02-01,statistical mechanics,128.28092469219467
+298,2015-02-01,strongly correlated electrons,169.01553450867127
+299,2015-02-01,superconductivity,98.25478498633859
+300,2015-03-01,condensed matter,37.80373303539301
+301,2015-03-01,disordered systems and neural networks,36.74408019688251
+302,2015-03-01,general relativity and quantum cosmology,2.686208912050027
+303,2015-03-01,high energy physics - lattice,2.660678135260255
+304,2015-03-01,high energy physics - phenomenology,3.817505199779861
+305,2015-03-01,high energy physics - theory,25.97936665344101
+306,2015-03-01,materials science,222.21873533220298
+307,2015-03-01,mathematical physics,14.259990639905949
+308,2015-03-01,mathematics - probability,1.5955846147951391
+309,2015-03-01,mesoscale and nanoscale physics,254.23875702931954
+310,2015-03-01,nonlinear sciences - adaptation and self-organizing systems,1.253054235931431
+311,2015-03-01,nonlinear sciences - chaotic dynamics,3.6985813604736495
+312,2015-03-01,nonlinear sciences - pattern formation and solitons,1.7163031132883064
+313,2015-03-01,nuclear theory,1.3349673181678336
+314,2015-03-01,other condensed matter,9.576420981849687
+315,2015-03-01,physics - atomic physics,8.129039250065908
+316,2015-03-01,physics - biological physics,6.676485673825315
+317,2015-03-01,physics - chemical physics,22.59285949650546
+318,2015-03-01,physics - computational physics,3.645207044273251
+319,2015-03-01,physics - fluid dynamics,5.581976832092802
+320,2015-03-01,physics - optics,9.152127509905316
+321,2015-03-01,physics - physics and society,8.629909903786404
+322,2015-03-01,quantitative biology - biomolecules,1.6694292410098135
+323,2015-03-01,quantitative biology - populations and evolution,3.8384672331317238
+324,2015-03-01,quantum gases,81.849013673544
+325,2015-03-01,quantum physics,57.91946563386362
+326,2015-03-01,soft condensed matter,78.96076231161115
+327,2015-03-01,statistical mechanics,128.63270662395135
+328,2015-03-01,strongly correlated electrons,169.56709650138487
+329,2015-03-01,superconductivity,98.53294069101608
+330,2015-04-01,condensed matter,38.00254225257507
+331,2015-04-01,disordered systems and neural networks,36.84143945337408
+332,2015-04-01,general relativity and quantum cosmology,2.689444691556747
+333,2015-04-01,high energy physics - lattice,2.6599687468413444
+334,2015-04-01,high energy physics - phenomenology,3.8249057487041656
+335,2015-04-01,high energy physics - theory,26.065137916048275
+336,2015-04-01,materials science,222.93414453196536
+337,2015-04-01,mathematical physics,14.317520719960427
+338,2015-04-01,mathematics - probability,1.5949459005840807
+339,2015-04-01,mesoscale and nanoscale physics,255.0838021103503
+340,2015-04-01,nonlinear sciences - adaptation and self-organizing systems,1.2527470681401884
+341,2015-04-01,nonlinear sciences - chaotic dynamics,3.7049415332843143
+342,2015-04-01,nonlinear sciences - pattern formation and solitons,1.7161721325431785
+343,2015-04-01,nuclear theory,1.3337117301479142
+344,2015-04-01,other condensed matter,9.56668065305389
+345,2015-04-01,physics - atomic physics,8.160506881464636
+346,2015-04-01,physics - biological physics,6.6950092962560905
+347,2015-04-01,physics - chemical physics,22.670651935852995
+348,2015-04-01,physics - computational physics,3.639225503879884
+349,2015-04-01,physics - fluid dynamics,5.603449344502742
+350,2015-04-01,physics - optics,9.183425686235882
+351,2015-04-01,physics - physics and society,8.660189161810097
+352,2015-04-01,quantitative biology - biomolecules,1.6777376537643638
+353,2015-04-01,quantitative biology - populations and evolution,3.8550844995103395
+354,2015-04-01,quantum gases,82.24409690401473
+355,2015-04-01,quantum physics,58.19764445321842
+356,2015-04-01,soft condensed matter,79.22726676763577
+357,2015-04-01,statistical mechanics,128.9801398119542
+358,2015-04-01,strongly correlated electrons,170.062679277919
+359,2015-04-01,superconductivity,98.80595933407609
